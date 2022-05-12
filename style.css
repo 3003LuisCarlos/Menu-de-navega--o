@@ -1,0 +1,59 @@
+body {
+    background-image: url(LC.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1{
+    color: #DDD;
+
+}
+aside {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 900;
+    display: flex;
+}
+
+#menu-opner {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 10px;
+} 
+
+#menu-area {
+    width: 0px;
+    height: 100vh;
+    background-color: #ccc;
+    overflow-x: hidden;
+    overflow-y: auto;
+    transition: all ease 5s;
+}
+
+#menu-area ul, #menu-area li {
+    padding: 0;
+    display: block;
+    padding: 10px;
+    color: #555;
+    cursor: pointer;
+}
+
+#menu-area li:hover {
+    background-color: #DDD;
+}
+
+.menu-opned {
+    width: 200px !important;
+}
+
+
+
+
+
+
+
