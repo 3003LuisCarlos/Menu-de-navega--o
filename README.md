@@ -1,2 +1,2 @@
 # Menu de navegação
- Prometo desenvolvido em Html,  Css e Javascript
+ Projeto desenvolvido em Html,  Css e Javascript.
